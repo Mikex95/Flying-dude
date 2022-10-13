@@ -431,6 +431,19 @@ header section {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-article-box a {
+            margin-right: 10rem;
+            border: black solid 1px;
+            padding: 10px 5px;
+            border-radius: 10px;
+    }
+
+    .header-article-box a:hover {
+        background-color: black;
     }
 
     .header-article-box h1 {
@@ -502,5 +515,14 @@ header section {
 
      .step-one-to-four p {
         width: 80%;
-     }
+    }
+
+    .section-top-footer h2 {
+        font-size: 3rem;
+    }
+
+    .text-footer {
+       text-align: center;
+       width: 300px;
+    }
 }
